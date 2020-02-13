@@ -12,6 +12,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { InMemoryDataService }  from './in-memory-data.service';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { InMemoryDataService }  from './in-memory-data.service';
     HeroDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HeroSearchComponent
   ],
   imports: [
     HttpClientModule,
